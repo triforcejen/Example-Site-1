@@ -5,8 +5,12 @@
   }
 
 body {
-color: #414141;               /* Dark gray */
-background-color: #EEEEEE;    /* Light gray */
-font-size: 18px;
-text-align: center;
+    color: #414141;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
+    font-size: 18px;
+    text-align: center;
+}
+
+nav {
+    list-style: none;
 }
