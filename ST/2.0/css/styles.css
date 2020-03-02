@@ -10,7 +10,9 @@ body {
     font-size: 18px;
     text-align: center;
 }
-
+header {
+    font-size: 10px;
+}
 nav {
     list-style: none;
 }
