@@ -12,19 +12,20 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #44546b;
-    margin-top: 1px;
+    height: 100%
 }
 
 nav li {
     float: left;
 }
   
-nav li a,nav .dropbtn {
+nav li a, nav .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    height: 100%;
 }
   
 nav li a:hover,nav .dropdown:hover .dropbtn {
@@ -52,7 +53,9 @@ nav .dropdown-content a {
     text-align: left;
 }
   
-nav .dropdown-content a:hover {background-color: #f1f1f1;}
+nav .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
   
 nav .dropdown:hover .dropdown-content {
     display: block;
