@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    color: #44546b;
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+}
+section{
+    margin-bottom: 1%
+}
+a.button {
+    background-color: #44546b;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
