@@ -11,3 +11,6 @@
 .btn-ftr{
     float:right;
 }
+.card{
+    border: 0px !important;
+}

@@ -1,64 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset='UTF-8'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset='UTF-8'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
         <title>ST Contracting Ltd.</title>
     </head>
     <body>
-        <header>
-            <h1>Welcome to ST Contracting Ltd. T/A Just Tiling and CBA Flooring and Tiling.</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <ul>More
-                    <ul>History
-                        <li><a href="../History/projects.html">Projects</a></li>
-                        <li><a href="../History/testimonials.html">Testimonials</a></li>
-                        <li><a href="../History/accreditations.html">Accreditations</a></li>
-                    </ul>
-                    <ul>Other Services
-                        <li><a href="../Other Services/refurb.html">Refurbishment</a></li>
-                        <li><a href="../Other Services/trade.html">Products - Trade Sales</a></li>
-                    </ul>
-                </ul>
-            </ul>
-        </nav>
-        <section>
-            <h4>Head Office for enquiries and quotations:</h4>
-                <p>S.T. Contracting Ltd.</p>
-                <p>Unit 18 Whitehill Lane Ind. Estate</p>
-                <p>Wootton Bassett, Swindon</p>
-                <p>Wiltshire, SN4 7DB</p>
-                <p>T: 01793 859 003</p>
-                <p>F: 01793 859 002</p>
-        </section>
-        <section>
-            <h4>Managing Director</h4>
-            <h4>Tim Horwood</h4>
-            <p>07880 187915</p>
-            <a href="mailto:tim@stcontracting.com?Subject=Enquiry from website." target="_top"><p>tim@stcontracting.com</p></a>
-            <h4>Operations Manager</h4>
-            <h4>Andrew Buttler</h4>
-            <p>07917374740</p>
-            <a href="mailto:andy@stcontracting.com?Subject=Enquiry from website."target="_top"><p>andy@stcontracting.com</p></a>
-            <h4>Commercial Manager</h4>
-            <h4>Chris Skillern</h4>
-            <p>07880187916</p>
-            <a href="mailto:chris@stcontracting.com?Subject=Enquiry from website."target="_top"><p>chris@stcontracting.com</p></a>
-            <h4>Accounts Supervisor</h4>
-            <h4>Laura Ashby</h4>
-            <p>01793859003</p>
-            <a href="mailto:laura@stcontracting.com?Subject=Enquiry from website."target="_top"><p>laura@stcontracting.com</p></a>
-            <p>We have 6 Contract Managers please contact our office on 01793859003 or Andy Buttler on 07917374740
-for details of the contract manager for your area.</p>
-        </section>
-        <footer>
-            <p><a href="#">Back to top</a></p>
-            <p>© 2020. All rights reserved. | ST Contracting</p> 
-            <p><a href="http://www.linkedin.com/in/triforcejen">Website design by Jen Ada</p>
-        </footer>
+        <div class="container">
+            <!--Navbar which does not collapse on desktop. -->
+            <nav class='navbar navbar-expand-lg navbar-light bg-light navbar-custom'>
+                <!-- ST Contracting logo on the left. -->
+                <a class='navbar-brand' href='#'>
+                    <img class="logo" src="../img/logo.png" width='150' height="90" alt="ST Contracting Logo">
+                </a>
+                <!-- Toggle collapse button. -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapsible navbar -->
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class='nav-link' href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class='nav-link' href="contact.html">Contact</a>
+                        </li>
+                        <!-- Dropdown button-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHistory" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                History
+                            </a> <!--/nav-link dropdown-toggle-->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownHistory">
+                                <a class="dropdown-item" href="../History/projects.html">Projects</a>
+                                <a class="dropdown-item" href="../History/testimonials.html">Testimonials</a>
+                                <a class="dropdown-item" href="../History/accreditations.html">Accreditations</a>
+                            </div><!--/dropdown-menu-->
+                        </li><!--/nav-item dropdown-->
+                        <!-- Dropdown button-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Other Services
+                            </a><!--/nav-link dropdown-toggle -->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownOServices">
+                                <a class="dropdown-item" href="../Other Services/refurb.html">Refurbishment</a>
+                                <a class="dropdown-item" href="../Other Services/trade.html">Products - Trade Sales</a>
+                            </div><!--/dropdown-menu -->
+                        </li><!--/nav-item dropdown -->
+                    </ul> <!-- navbar-nav -->
+                </div> <!--/navbar-collapse -->
+            </nav>
+            <div class="card">
+                <div class="card-body">
+                    <div class="jumbotron">
+                        <h1 class="display-4">Welcome to ST Contracting Ltd.</h1>
+                        <p class="lead">T/A Just Tiling and CBA Flooring and Tiling.</p>
+                        <hr class="my-4">
+                        <p>We are one of the largest Tiling Contractors in the UK, supplying and fixing floor and wall tiles to the discerning house builder. We also carry out high specification commercial projects. We welcome the opportunity to work on design and build with architects and house builders alike.</p>
+                    </div><!--/jumbotron-->
+                </div><!--/card-body-->
+            </div><!--/card-->
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Head Office for enquiries and quotations:</h4>
+                            <div class="card-text">
+                                <p>S.T. Contracting Ltd.</p>
+                                <p>Unit 18 Whitehill Lane Ind. Estate</p>
+                                <p>Wootton Bassett, Swindon</p>
+                                <p>Wiltshire, SN4 7DB</p>
+                                <a href="tel:01793859003"><p>T: 01793 859 003</p></a>
+                                <a href="fax:01793859002"><p>F: 01793 859 002</p></a>
+                            </div><!--/card-text-->
+                        </div><!--/card-body-->
+                    </div><!--/card-->
+                </div><!--/col-md-4-->
+                <div class="col-md-4"></div>
+            </div><!--/row-->
+            <br>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Managing Director</h4>
+                            <h4 class="card-title">Tim Horwood</h4>
+                            <a class="card-link" href="tel:07880187915" >07880 187 915</a>
+                            <a class="card-link" href="mailto:tim@stcontracting.com?Subject=Enquiry from website." target="_top" ><p>tim@stcontracting.com</p></a>
+                        </div><!--/card-body-->
+                    </div><!--/card-->
+                </div><!--/col-md-3-->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Operations Manager</h4>
+                            <h4 class="card-title">Andrew Buttler</h4>
+                            <a class="card-link" href="tel:0791737474">07917 374 740</a>
+                            <a class="card-link" href="mailto:andy@stcontracting.com?Subject=Enquiry from website."target="_top"><p>andy@stcontracting.com</p></a>
+                        </div><!--/card-body-->
+                    </div><!--/card-->
+                </div><!--/col-md-3-->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Commercial Manager</h4>
+                            <h4 class="card-title">Chris Skillern</h4>
+                            <a class="card-link" href="tel:07880187916">07880 187 916</a>
+                            <a class="card-link" href="mailto:chris@stcontracting.com?Subject=Enquiry from website."target="_top"><p>chris@stcontracting.com</p></a>
+                        </div><!--/card-body-->
+                    </div><!--/card-->
+                </div><!--/col-md-3-->
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Accounts Supervisor</h4>
+                            <h4 class="card-title">Laura Ashby</h4>
+                            <a class="card-link" href="tel:01793859003">01793 859 003</a>
+                            <a class="card-link" href="mailto:laura@stcontracting.com?Subject=Enquiry from website."target="_top"><p>laura@stcontracting.com</p></a>
+                        </div><!--/card-body-->
+                    </div><!--/card-->
+                </div><!--/col-md-3-->
+            </div><!--/row-->
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <p>We have 6 Contract Managers please contact our office on <a href="tel:01793859003">01793 859 003</a> or Andy Buttler on <a href="tel:07917374740">07917 374 740</a>
+        for details of the contract manager for your area.</p>
+                    </div><!--card-body-->
+                </div><!--card-->
+            </div><!--/row-->
+            <br>
+            <footer class="card-footer">
+                <p>© 2020. All rights reserved. | ST Contracting <a href="#" class='btn btn-primary btn-ftr'>Back to top</a></p>
+                <p><a href="http://www.linkedin.com/in/triforcejen">Website by Jen Ada</p>
+            </footer>
+        </div><!--/container-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
