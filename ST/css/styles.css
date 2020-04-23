@@ -1,3 +1,5 @@
+/* Modifications to overwrite Bootstrap's styles. */
+/* Yes the "!important" tags are hacks. */
 .navbar-custom{
     background-color: #44546b !important;
 }
@@ -11,6 +13,6 @@
 .btn-ftr{
     float:right;
 }
-/* .card{
+.card{
     border: 0px !important;
-} */
+}
