@@ -16,3 +16,10 @@
 .card{
     border: 0px !important;
 }
+.list-inline-item{
+    margin-right: 0px !important;
+}
+.list-inline-item > a{
+    color: #212529;
+    text-decoration: none;
+}
