@@ -1,11 +1,8 @@
 /* Modifications to overwrite Bootstrap's styles. */
-$theme-colors: {
-    "primary": #44546b
-};
+$theme-colors:(
+    "light": #44546b
+);
 @import "../node_modules/bootstrap/scss/bootstrap";
-.navbar-custom{
-    background-color: #44546b;
-}
 .nav-link{
     color: white;
 }
