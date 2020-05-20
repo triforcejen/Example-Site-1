@@ -1,12 +1,17 @@
 // Modifications to overwrite Bootstrap's styles. 
 
 //Import only necessary Bootstrap 4 files!
-
+//Required
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/grid";
+//Optional
 @import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/code";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/grid";
+
 @import "../node_modules/bootstrap/scss/nav";
 @import "../node_modules/bootstrap/scss/navbar";
 
@@ -14,11 +19,12 @@
 $theme-colors:(
     // "dark": #44546b
     // "dark": #508627
-    "st": #7baf24
+    // "st": #7baf24,
+    "dark": #528078
     // dark: #a1cb47
-);
-
+); 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
 .nav-link{
     color: white;
 }
@@ -39,3 +45,4 @@ $theme-colors:(
 .list-group-item{
     border: none;
 }
+
