@@ -11,7 +11,7 @@
 @import "../node_modules/bootstrap/scss/code";
 @import "../node_modules/bootstrap/scss/grid";
 @import "../node_modules/bootstrap/scss/grid";
-
+//Nav
 @import "../node_modules/bootstrap/scss/nav";
 @import "../node_modules/bootstrap/scss/navbar";
 
@@ -19,7 +19,7 @@
 $theme-colors:(
     // "dark": #528078
     // "dark": #508627
-    "dark": #7baf24
+    "dark": rgb(135, 177, 62)
     // "dark": #a1cb47
 ); 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -44,4 +44,3 @@ $theme-colors:(
 .list-group-item{
     border: none;
 }
-
