@@ -41,6 +41,10 @@ $theme-colors:(
     color: #212529;
     text-decoration: none;
 }
+
 .list-group-item{
     border: none;
+    a{
+        color: #212529;
+    }
 }

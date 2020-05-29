@@ -3,51 +3,52 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset='UTF-8'>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/custom.css">
         <title>ST Contracting Ltd.</title>
     </head>
     <body>
-        <!--Page Wrapper-->
-        <div class="container">
-            <!--Navbar-->
-            <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
-                <!-- ST Contracting logo on the left. -->
-                <a class='navbar-brand' href='#'>
-                    <img class="logo" src="img/Logos/logo.png" width='150' height="90" alt="ST Contracting Logo">
-                </a>
-                <!-- Toggle collapse button. -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- Collapsible navbar -->
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class='nav-link' href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class='nav-link' href="contact.html">Contact</a>
-                        </li>
-                        <!-- Dropdown button-->
-                        <li class="nav-item active dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHistory" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                History
-                            </a> <!--/nav-link dropdown-toggle-->
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownHistory">
-                                <a class="dropdown-item" href="#projects">Projects</a>
-                                <a class="dropdown-item" href="#accreditations">Accreditations</a>
-                            </div><!--/dropdown-menu -->
-                        </li><!--/nav-item dropdown -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="products.html">Products</a>
-                        </li>
-                    </ul> <!--/navbar-nav -->
-                </div> <!--/navbar-collapse -->
-            </nav>
-            <!--Introduction-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 d-none d-md-block">
+                    <div id="svg-container" style="width:100%;height:100%;">
+                        <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <polygon points="0,0 0,100 80,20" fill="rgb(123, 175, 36, 0.5")/>
+                            <polygon points="0,0 0,100 80,50" fill="rgb(123, 175, 36, 0.2")/>
+                            <polygon points="0,0 0,100 80,90" fill="rgb(123, 175, 36, 0.8")/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <nav class='navbar navbar-expand-md navbar-dark bg-dark flex-column'>
+                        <a class='navbar-brand' href='#'>
+                            <img class="logo" src="img/Logos/logo.png" alt="ST Contracting Logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nb">
+                            <span class="text-center">MENU</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="nb">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class='nav-link' href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class='nav-link' href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="history.html#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="history.html#accreditations">Accreditations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="products.html">Products</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
             <div class="card">
                 <div class="card-body">
                     <div class="jumbotron">
@@ -55,16 +56,14 @@
                         <p class="lead">T/A Just Tiling, CBA Flooring and Tiling, Stratford Ceramics</p>
                         <hr class="my-4">
                         <p>We are one of the largest Tiling Contractors in the UK, supplying and fixing floor and wall tiles to the discerning house builder. We also carry out high specification commercial projects.</p>
-                    </div><!--/jumbotron-->
-                </div><!--/card-body-->
-            </div><!--/card-->
-            <!--Project Title-->
+                    </div>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title" id="projects">Projects</h2>
                 </div>
-            </div><!--/card-->
-            <!--Customers-->
+            </div>
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">Our customers include:</h3>
@@ -110,9 +109,8 @@
                         <li class="list-inline-item"><a href="https://www.costain.com/">Costain </a></li>
                         <li class="list-inline-item">and many more.</li>
                     </ul>
-                </div><!--/card-body-->
-            </div><!--/card-->
-            <!--Purchasing Relationships-->
+                </div>
+            </div>
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">Direct purchasing relationships</h3>
@@ -128,9 +126,8 @@
                         <li class="list-inline-item"><a href="http://www.domustiles.co.uk">Domus,</a></li>
                         <li class="list-inline-item"><a href="http://www.porcelanosa.com/gb/porcelanosa.php">and Porcelanosa.</a></li>
                     </ul>
-                </div><!--/card-body-->
-            </div><!--/card-->
-            <!--Project Bottom-->
+                </div>
+            </div>
             <div class="card text-center">
                 <div class="card-body">
                     <h4 class="card-title">If required we can source tiles to provide equal and approved costs savings.</h4>
@@ -138,16 +135,14 @@
                     <div class="btn-group" role="group" aria-label="Bottom content button group">
                         <a class="btn btn-dark" href="products.html#">Find out more »</a>
                         <a class="btn btn-dark" href="contact.html#">Contact us now »</a>
-                    </div><!--/btn-group-->
-                </div><!--/card-body-->
-            </div><!--/card-->
-            <!--Accreditations Title-->
+                    </div>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title" id="accreditations">Accreditations</h2>
                 </div>
             </div>
-            <!--Accreditations Content-->
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">Health and Safety</h3>
@@ -157,40 +152,48 @@
                         <li class="list-group-item">We are pleased to maintain our record of zero reportable HSE instances.</li>
                         <li class="list-group-item">All our employees have undergone First Aid and Health & Safety awareness training.</li> 
                     </ul>
-                </div><!--/card-->
-            </div><!--/card-body-->
-            <!--Accreditations Logos-->
+                </div>
+            </div>
             <div class="card-deck">
                 <div class="card text-center">
                     <div class="card-body">
                         <a href="http://www.chas.co.uk/">
                         <img class="card-img-top rounded" src="./img/Logos/Chas.png"></a>
-                    </div><!--/card-body-->
-                </div><!--/card-->
+                    </div>
+                </div>
                 <div class="card text-center">
                     <div class="card-body">
                         <a href="http://www.smasltd.com">
                         <img class="card-img-top rounded" src="./img/Logos/Smas.png"></a>
-                    </div><!--/card-body-->
-                </div><!--/card-->
+                    </div>
+                </div>
                 <div class="card text-center">
                     <div class="card-body">
                         <a href="http://www.safecontractor.com/">
                         <img class="card-img-top rounded" src="./img/Logos/Alcumus.png"></a>
-                    </div><!--/card-body-->
-                </div><!--/card-->
+                    </div>
+                </div>
                 <div class="card text-center">
                     <div class="card-body">
                         <a href="https://cqms-ltd.co.uk/">
                         <img class="card-img-top rounded" src="./img/Logos/CQMS.png"></a>
-                    </div><!--/card-body-->
-                </div><!--/card-->
-            </div><!--/card-deck-->
+                    </div>
+                </div>
+            </div>
             <br>
             <footer class="card-footer">
                 <p>© 2020. All rights reserved. | ST Contracting <a href="#" class='btn btn-dark btn-ftr'>Back to top</a></p>
-                <p><a href="http://www.linkedin.com/in/triforcejen">Website by Jen Ada</p>
+                <p><a href="http://www.linkedin.com/in/triforcejen">Website by Jen Ada</a></p>
             </footer>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+                <div id="svg-container" style="width:100%;height:100%;">
+                    <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon points="100,0 100,100 20,20" fill="rgb(123, 175, 36, 0.8")/>
+                        <polygon points="100,0 100,100 20,50" fill="rgb(123, 175, 36, 0.2")/>
+                        <polygon points="100,0 100,100 20,90" fill="rgb(123, 175, 36, 0.5")/>
+                    </svg>
+                </div>
             </div>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
