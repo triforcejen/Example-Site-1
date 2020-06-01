@@ -14521,6 +14521,10 @@ a.text-dark:hover, a.text-dark:focus {
   border: 0px;
 }
 
+.card-subtitle {
+  padding-bottom: 0.25rem;
+}
+
 .list-inline-item {
   margin-right: 0px;
 }
@@ -14532,6 +14536,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .list-group-item {
   border: none;
+  padding: 0.5rem;
 }
 
 .list-group-item a {
