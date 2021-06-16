@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\img",
+    "\\img\\Logos",
+    "\\img\\Map"
   ],
-  "SelectedNode": "\\products.html",
+  "SelectedNode": "\\history.html",
   "PreviewInSolutionExplorer": false
 }
