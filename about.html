@@ -1,148 +1,167 @@
-﻿Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@triforcejen
-triforcejen /
-Example-Site-1
-
-1
-0
-
-    0
-
-Code
-Issues 7
-Pull requests
-Actions
-Security
-Insights
-
-    Settings
-
-Example-Site-1/about.html
-@triforcejen
-triforcejen Update about.html
-Latest commit 8a85c54 2 hours ago
-History
-1 contributor
-151 lines (149 sloc) 9.15 KB
-﻿
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset='UTF-8'>
-        <link rel="stylesheet" href="css/custom.css">
-        <title>ST Contracting Ltd.</title>
-    </head>
-    <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-2 d-none d-md-block">
-                    <div id="svg-container" style="width:100%;height:100%;">
-                        <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <polygon points="0,0 0,100 80,20" fill="rgb(123, 175, 36, 0.5" ) />
-                            <polygon points="0,0 0,100 80,50" fill="rgb(123, 175, 36, 0.2" ) />
-                            <polygon points="0,0 0,100 80,90" fill="rgb(123, 175, 36, 0.8" ) />
-                        </svg>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="/css/custom.css">
+    <title>ST Contracting Ltd.</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 d-none d-md-block">
+                <div id="svg-container" style="width:100%;height:100%;">
+                    <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon points="0,0 0,100 80,20" fill="rgb(123, 175, 36, 0.5" ) />
+                        <polygon points="0,0 0,100 80,50" fill="rgb(123, 175, 36, 0.2" ) />
+                        <polygon points="0,0 0,100 80,90" fill="rgb(123, 175, 36, 0.8" ) />
+                    </svg>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <nav class='navbar navbar-expand-md navbar-dark bg-dark flex-column'>
+                    <a class='navbar-brand' href='#'>
+                        <img class="logo w-100" src="img/Logos/logo.png" alt="ST Contracting Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nb">
+                        <span class="text-center">MENU</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nb">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class='nav-link' href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class='nav-link' href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="history.html#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="history.html#accreditations">Accreditations</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="jumbotron">
+                            <h1 class="display-4 text-center">Welcome to ST Contracting Ltd.</h1>
+                            <p class="lead text-center">Just Tiling</p>
+                            <hr class="my-4">
+                            <p>We are one of the largest Tiling Contractors in the UK, supplying and fixing floor and wall tiles to the discerning house builder. We also carry out high specification commercial projects.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-8">
-                    <nav class='navbar navbar-expand-md navbar-dark bg-dark flex-column'>
-                        <a class='navbar-brand' href='#'>
-                            <img class="logo w-100" src="img/Logos/logo.png" alt="ST Contracting Logo">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nb">
-                            <span class="text-center">MENU</span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="nb">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class='nav-link' href="about.html">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class='nav-link' href="contact.html">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="history.html#projects">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="history.html#accreditations">Accreditations</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="products.html">Products</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="jumbotron">
-                                <h1 class="display-4 text-center">Welcome to ST Contracting Ltd.</h1>
-                                <p class="lead text-center">Just Tiling</p>
-                                <hr class="my-4">
-                                <p>We are one of the largest Tiling Contractors in the UK, supplying and fixing floor and wall tiles to the discerning house builder. We also carry out high specification commercial projects.</p>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Mission Statement</h2>
+                                <p class="card-text">We are dedicated to providing complete customer satisfaction with consistently high standards of service, performance, quality of work and materials.</p>
+                                <p class="card-text">Achievable by:</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Efficient communication.</li>
+                                    <li class="list-group-item">Proactive managment in all aspects of business.</li>
+                                    <li class="list-group-item">Guaranteed quality service.</li>
+                                    <li class="list-group-item">Competitive prices.</li>
+                                    <li class="list-group-item">Feedback with our customers throughout and on completion of contracts.</li>
+                                    <li class="list-group-item">Innovation.</li>
+                                    <li class="list-group-item">Exceeding Customers Needs.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h2 class="card-title">Mission Statement</h2>
-                                    <p class="card-text">We are dedicated to providing complete customer satisfaction with consistently high standards of service, performance, quality of work and materials.</p>
-                                    <p class="card-text">Achievable by:</p>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">Efficient communication.</li>
-                                        <li class="list-group-item">Proactive managment in all aspects of business.</li>
-                                        <li class="list-group-item">Guaranteed quality service.</li>
-                                        <li class="list-group-item">Competitive prices.</li>
-                                        <li class="list-group-item">Feedback with our customers throughout and on completion of contracts.</li>
-                                        <li class="list-group-item">Innovation.</li>
-                                        <li class="list-group-item">Exceeding Customers Needs.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h2 class="card-title">About Us</h2>
-                                    <p>Our core business is the supply and fix of wall and floor tiles to the commercial market, major house builders and domestic properties.</p>
-                                    <p>We are located in the South of the UK and have good access to core markets and major transport links.</p>
-                                    <p>ST Contracting acquired CBA Tiling, Just Tiling and Stratford Ceramics industry leading names in Tiling Contracting, established in 1987, 1988 and 2006 respectively.</p>
-                                    <p>All businesses were purchased in 2010 and combined trading as ST Contracting Ltd to form one of the largest tiling contractors in the UK.</p>
-                                    <p>ST Contracting Ltd. has an excellent reputation and has grown considerably since 2010.</p>
-                                    <p>Success based on repeat business with "Key Customers and Suppliers", excellent quality and customer service.</p>
-                                </div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">About Us</h2>
+                                <p>Our core business is the supply and fix of wall and floor tiles to the commercial market, major house builders and domestic properties.</p>
+                                <p>We are located in the South of the UK and have good access to core markets and major transport links.</p>
+                                <p>ST Contracting acquired CBA Tiling, Just Tiling and Stratford Ceramics industry leading names in Tiling Contracting, established in 1987, 1988 and 2006 respectively.</p>
+                                <p>All businesses were purchased in 2010 and combined trading as ST Contracting Ltd to form one of the largest tiling contractors in the UK.</p>
+                                <p>ST Contracting Ltd. has an excellent reputation and has grown considerably since 2010.</p>
+                                <p>Success based on repeat business with "Key Customers and Suppliers", excellent quality and customer service.</p>
                             </div>
                         </div>
                     </div>
-                    <br>
-                    <footer class="card-footer">
-                        <p>© 2021. All rights reserved. | ST Contracting <a href="#" class='btn btn-dark btn-ftr text-light'>Back to top</a></p>
-                        <p><a href="mailto:jennifer-ada@outlook.com?Subject=Enquiry from website.">Website by Jen Ada</a></p>
-                    </footer>
                 </div>
-                <div class="col-md-2 d-none d-md-block">
-                    <div id="svg-container" style="width:100%;height:100%;">
-                        <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-                            <polygon points="100,0 100,100 20,20" fill="rgb(123, 175, 36, 0.8" ) />
-                            <polygon points="100,0 100,100 20,50" fill="rgb(123, 175, 36, 0.2" ) />
-                            <polygon points="100,0 100,100 20,90" fill="rgb(123, 175, 36, 0.5" ) />
-                        </svg>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <h2 class="card-title text-center ">Trading Area</h2>
+                            <p>
+                                We serve much of the area West of London including but not limited to:
+                            </p>
+                            <p>
+                                Bournemouth,
+                                Brighton,
+                                Bristol,
+                                Croydon,
+                                Dartford,
+                                Eastbourne,
+                                Gloucester,
+                                Harrow,
+                                Luton,
+                                Milton Keynes,
+                                Oxford,
+                                Portsmouth,
+                                Reading,
+                                Southampton,
+                                Stevenage,
+                                Wembley
+                                and Worcester
+                            </p>
+                            <p>For enquiries regarding sites outside of this area please contact our Head Office here: <a href="../contact.html" class='btn btn-dark text-light'>Contact Us »</a></p>
+
+
+                            <img src="img/Map/Map.png" class="card-img border-success" alt="Map" />
+                        </div>
                     </div>
+                </div>
+                <br>
+                <footer class="card-footer">
+                    <p>© 2021. All rights reserved. | ST Contracting <a href="#" class='btn btn-dark btn-ftr text-light'>Back to top</a></p>
+                    <p><a href="mailto:jennifer-ada@outlook.com?Subject=Enquiry from website.">Website by Jen Ada</a></p>
+                </footer>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+                <div id="svg-container" style="width:100%;height:100%;">
+                    <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon points="100,0 100,100 20,20" fill="rgb(123, 175, 36, 0.8" ) />
+                        <polygon points="100,0 100,100 20,50" fill="rgb(123, 175, 36, 0.2" ) />
+                        <polygon points="100,0 100,100 20,90" fill="rgb(123, 175, 36, 0.5" ) />
+                    </svg>
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
+
+    © 2021 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+Loading complete
